@@ -1,0 +1,29 @@
+# =========================
+# Terraform
+# =========================
+
+# Local .terraform directory (provider plugins, cache)
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Saved plan files
+*.tfplan
+tfplan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
