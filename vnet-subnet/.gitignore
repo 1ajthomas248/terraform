@@ -16,6 +16,7 @@ crash.*.log
 # Saved plan files
 *.tfplan
 tfplan
+lab02plan
 
 # CLI configuration files
 .terraformrc
