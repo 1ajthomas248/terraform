@@ -34,3 +34,14 @@ variable "tags" {
   description = "Tags applies to resources"
   default     = {}
 }
+
+variable "admin_username" {
+  type = string
+  description = "Admin username for VM"
+  default = "azureuser"
+}
+
+variable "public_key_path" {
+  type = string
+  description = "Path to SSH public key"
+}
